@@ -1,4 +1,4 @@
-ClientsController ={};
+const ClientsController ={};
 
 ClientsController.getAllClients = async (req, res) => {
     
@@ -16,3 +16,5 @@ ClientsController.getAllClients = async (req, res) => {
 
     res.send(clientes);
 }
+
+module.exports = ClientsController;
